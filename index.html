@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satvik Bhog Restaurant</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    color: #222;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header span {
+    color: #e63946;
+}
+
+nav {
+    background: #222;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 350px;
+    background: linear-gradient(#0008,#0008),
+    url('images/restaurant.jpg') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #e63946;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+section {
+    padding: 35px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food {
+    background: white;
+    width: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px #ccc;
+    padding-bottom: 15px;
+}
+
+.food img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.food h3 {
+    margin: 12px;
+}
+
+.food p {
+    color: #16803c;
+    font-weight: bold;
+}
+
+.about {
+    background: #eee;
+    line-height: 1.8;
+}
+
+.contact {
+    line-height: 2;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Satvik <span>Bhog</span> 🟢</h1>
+    <p>Pure Vegetarian Restaurant</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+    <div>
+        <h2>Welcome to Satvik Bhog</h2>
+        <p>स्वाद भी, शुद्धता भी!</p>
+        <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+</div>
+
+<section id="menu">
+    <h2>Our Special Menu 🍽️</h2>
+
+    <div class="menu">
+
+        <div class="food">
+            <img src="images/food-1.jpg" alt="Paneer">
+            <h3>Paneer Special</h3>
+            <p>₹180</p>
+        </div>
+
+        <div class="food">
+            <img src="images/food-2.jpg" alt="Thali">
+            <h3>Special Thali</h3>
+            <p>₹150</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+        Satvik Bhog is a pure vegetarian restaurant.
+        We serve delicious and fresh food for everyone.
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us 📞</h2>
+
+    <p>📍 Main Road, Beside Old Union Bank,</p>
+    <p>Dindori, Madhya Pradesh 481880</p>
+
+    <p>📞 096302 86122</p>
+    <p>⏰ 9 AM - 11 PM</p>
+
+    <a class="btn" href="tel:09630286122">
+        Call Now
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Satvik Bhog Restaurant</p>
+    <p>Made with ❤️</p>
+</footer>
+
+</body>
+</html>
